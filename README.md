@@ -9,6 +9,14 @@ NVIDIA GPU Display Driver for Linux, all versions, contains a vulnerability in t
 
 - [pokerfaceSad/CVE-2021-1056](https://github.com/pokerfaceSad/CVE-2021-1056)
 
+### CVE-2021-1480 (2021-04-08)
+
+<code>
+Multiple vulnerabilities in Cisco SD-WAN vManage Software could allow an unauthenticated, remote attacker to execute arbitrary code or allow an authenticated, local attacker to gain escalated privileges on an affected system. For more information about these vulnerabilities, see the Details section of this advisory.
+</code>
+
+- [xmco/sdwan-cve-2021-1480](https://github.com/xmco/sdwan-cve-2021-1480)
+
 ### CVE-2021-1656 (2021-01-12)
 
 <code>
@@ -53,6 +61,7 @@ Windows Print Spooler Elevation of Privilege Vulnerability
 - [thalpius/Microsoft-CVE-2021-1675](https://github.com/thalpius/Microsoft-CVE-2021-1675)
 - [Winter3un/CVE-2021-1675](https://github.com/Winter3un/CVE-2021-1675)
 - [hahaleyile/my-CVE-2021-1675](https://github.com/hahaleyile/my-CVE-2021-1675)
+- [tacbliw/PrintNightmare-LPE](https://github.com/tacbliw/PrintNightmare-LPE)
 
 ### CVE-2021-1699 (2021-01-12)
 
@@ -132,6 +141,14 @@ Vulnerability in the Recovery component of Oracle Database Server. Supported ver
 </code>
 
 - [emad-almousa/CVE-2021-2173](https://github.com/emad-almousa/CVE-2021-2173)
+
+### CVE-2021-2394 (2021-07-20)
+
+<code>
+Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 10.3.6.0.0, 12.1.3.0.0, 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts). CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).
+</code>
+
+- [lz2y/CVE-2021-2394](https://github.com/lz2y/CVE-2021-2394)
 
 ### CVE-2021-3007 (2021-01-03)
 
@@ -256,10 +273,9 @@ Sudo before 1.9.5p2 contains an off-by-one error that can result in a heap-based
 - [ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build](https://github.com/ajtech-hue/CVE-2021-3156-Mitigation-ShellScript-Build)
 - [wuuconix/CVE-2021-3156-Dockerfile-not-succeed](https://github.com/wuuconix/CVE-2021-3156-Dockerfile-not-succeed)
 - [donghyunlee00/CVE-2021-3156](https://github.com/donghyunlee00/CVE-2021-3156)
-- [TheFlash2k/CVE-2021-3156](https://github.com/TheFlash2k/CVE-2021-3156)
 
 ### CVE-2021-3157
-- [y3rb1t4/CVE-2021-3157](https://github.com/y3rb1t4/CVE-2021-3157)
+- [gabobike/CVE-2021-3157](https://github.com/gabobike/CVE-2021-3157)
 
 ### CVE-2021-3164 (2021-01-21)
 
@@ -349,6 +365,15 @@ A cross-site scripting (XSS) vulnerability in Pryaniki 6.44.3 allows remote auth
 
 - [jet-pentest/CVE-2021-3395](https://github.com/jet-pentest/CVE-2021-3395)
 
+### CVE-2021-3438 (2021-05-20)
+
+<code>
+A potential buffer overflow in the software drivers for certain HP LaserJet products and Samsung product printers could lead to an escalation of privilege.
+</code>
+
+- [Crystalware/CVE-2021-3438](https://github.com/Crystalware/CVE-2021-3438)
+- [TobiasS1402/CVE-2021-3438](https://github.com/TobiasS1402/CVE-2021-3438)
+
 ### CVE-2021-3449 (2021-03-25)
 
 <code>
@@ -356,6 +381,14 @@ An OpenSSL TLS server may crash if sent a maliciously crafted renegotiation Clie
 </code>
 
 - [terorie/cve-2021-3449](https://github.com/terorie/cve-2021-3449)
+
+### CVE-2021-3490 (2021-06-03)
+
+<code>
+The eBPF ALU32 bounds tracking for bitwise ops (AND, OR and XOR) in the Linux kernel did not properly update 32-bit bounds, which could be turned into out of bounds reads and writes in the Linux kernel and therefore, arbitrary code execution. This issue was fixed via commit 049c4e13714e (&quot;bpf: Fix alu32 const subreg bound tracking on bitwise operations&quot;) (v5.13-rc4) and backported to the stable kernels in v5.12.4, v5.11.21, and v5.10.37. The AND/OR issues were introduced by commit 3f50f132d840 (&quot;bpf: Verifier, do explicit ALU32 bounds tracking&quot;) (5.7-rc1) and the XOR variant was introduced by 2921c90d4718 (&quot;bpf:Fix a verifier failure with xor&quot;) ( 5.10-rc1).
+</code>
+
+- [chompie1337/Linux_LPE_eBPF_CVE-2021-3490](https://github.com/chompie1337/Linux_LPE_eBPF_CVE-2021-3490)
 
 ### CVE-2021-3492 (2021-04-17)
 
@@ -397,6 +430,8 @@ There's a flaw in libxml2's xmllint in versions before 2.9.11. An attacker who i
 - [AssassinUKG/Polkit-CVE-2021-3560](https://github.com/AssassinUKG/Polkit-CVE-2021-3560)
 - [mr-nO0b/CVE-2021-3560](https://github.com/mr-nO0b/CVE-2021-3560)
 - [deathflash1411/CVE-2021-3560](https://github.com/deathflash1411/CVE-2021-3560)
+- [BizarreLove/CVE-2021-3560](https://github.com/BizarreLove/CVE-2021-3560)
+- [0dayNinja/CVE-2021-3560](https://github.com/0dayNinja/CVE-2021-3560)
 
 ### CVE-2021-3572
 - [frenzymadness/CVE-2021-3572](https://github.com/frenzymadness/CVE-2021-3572)
@@ -502,6 +537,7 @@ Git is an open-source distributed revision control system. In affected versions 
 - [fengzhouc/CVE-2021-21300](https://github.com/fengzhouc/CVE-2021-21300)
 - [danshuizhangyu/CVE-2021-21300](https://github.com/danshuizhangyu/CVE-2021-21300)
 - [tao-sun2/CVE-2021-21300](https://github.com/tao-sun2/CVE-2021-21300)
+- [xiaofeihahah/CVE-2021-21300](https://github.com/xiaofeihahah/CVE-2021-21300)
 
 ### CVE-2021-21315 (2021-02-16)
 
@@ -598,6 +634,7 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability in a v
 - [password520/CVE-2021-21972](https://github.com/password520/CVE-2021-21972)
 - [murataydemir/CVE-2021-21972](https://github.com/murataydemir/CVE-2021-21972)
 - [pettyhacks/vSphereyeeter](https://github.com/pettyhacks/vSphereyeeter)
+- [haiclover/CVE-2021-21972](https://github.com/haiclover/CVE-2021-21972)
 
 ### CVE-2021-21973 (2021-02-24)
 
@@ -656,6 +693,14 @@ The vSphere Client (HTML5) contains a remote code execution vulnerability due to
 - [haiclover/CVE-2021-21985](https://github.com/haiclover/CVE-2021-21985)
 - [aristosMiliaressis/CVE-2021-21985](https://github.com/aristosMiliaressis/CVE-2021-21985)
 
+### CVE-2021-22146 (2021-07-21)
+
+<code>
+All versions of Elastic Cloud Enterprise has the Elasticsearch “anonymous” user enabled by default in deployed clusters. While in the default setting the anonymous user has no permissions and is unable to successfully query any Elasticsearch APIs, an attacker could leverage the anonymous user to gain insight into certain details of a deployed cluster.
+</code>
+
+- [magichk/cve-2021-22146](https://github.com/magichk/cve-2021-22146)
+
 ### CVE-2021-22192 (2021-03-24)
 
 <code>
@@ -682,6 +727,7 @@ Improper neutralization of user data in the DjVu file format in ExifTool version
 - [convisoappsec/CVE-2021-22204-exiftool](https://github.com/convisoappsec/CVE-2021-22204-exiftool)
 - [se162xg/CVE-2021-22204](https://github.com/se162xg/CVE-2021-22204)
 - [bilkoh/POC-CVE-2021-22204](https://github.com/bilkoh/POC-CVE-2021-22204)
+- [PenTestical/CVE-2021-22204](https://github.com/PenTestical/CVE-2021-22204)
 
 ### CVE-2021-22205 (2021-04-23)
 
@@ -726,6 +772,7 @@ A improper input sanitization vulnerability exists in Rocket.Chat server 3.11, 3
 </code>
 
 - [CsEnox/CVE-2021-22911](https://github.com/CsEnox/CVE-2021-22911)
+- [optionalCTF/Rocket.Chat-Automated-Account-Takeover-RCE-CVE-2021-22911](https://github.com/optionalCTF/Rocket.Chat-Automated-Account-Takeover-RCE-CVE-2021-22911)
 
 ### CVE-2021-22986 (2021-03-31)
 
@@ -808,6 +855,14 @@ Windows Console Driver Denial of Service Vulnerability
 </code>
 
 - [waleedassar/CVE-2021-24098](https://github.com/waleedassar/CVE-2021-24098)
+
+### CVE-2021-24155 (2021-04-05)
+
+<code>
+The WordPress Backup and Migrate Plugin – Backup Guard WordPress plugin before 1.6.0 did not ensure that the imported files are of the SGBP format and extension, allowing high privilege users (admin+) to upload arbitrary files, including PHP ones, leading to RCE.
+</code>
+
+- [0dayNinja/CVE-2021-24155.rb](https://github.com/0dayNinja/CVE-2021-24155.rb)
 
 ### CVE-2021-24347 (2021-06-14)
 
@@ -1219,6 +1274,7 @@ The MsIo64.sys driver before 1.1.19.1016 in MSI Dragon Center before 2.0.98.0 ha
 </code>
 
 - [mathisvickie/CVE-2021-27965](https://github.com/mathisvickie/CVE-2021-27965)
+- [Crystalware/CVE-2021-27965](https://github.com/Crystalware/CVE-2021-27965)
 
 ### CVE-2021-28310 (2021-04-13)
 
@@ -1235,6 +1291,14 @@ Windows NTFS Denial of Service Vulnerability
 </code>
 
 - [shubham0d/CVE-2021-28312](https://github.com/shubham0d/CVE-2021-28312)
+
+### CVE-2021-28378 (2021-03-15)
+
+<code>
+Gitea 1.12.x and 1.13.x before 1.13.4 allows XSS via certain issue data in some situations.
+</code>
+
+- [PandatiX/CVE-2021-28378](https://github.com/PandatiX/CVE-2021-28378)
 
 ### CVE-2021-28476 (2021-05-11)
 
@@ -1447,6 +1511,9 @@ Microsoft Windows Infrared Data Association (IrDA) Information Disclosure Vulner
 
 - [waleedassar/CVE-2021-31184](https://github.com/waleedassar/CVE-2021-31184)
 
+### CVE-2021-31630
+- [h3v0x/CVE-2021-31630-OpenPLC_RCE](https://github.com/h3v0x/CVE-2021-31630-OpenPLC_RCE)
+
 ### CVE-2021-31702 (2021-05-29)
 
 <code>
@@ -1595,9 +1662,18 @@ fs/seq_file.c in the Linux kernel 3.16 through 5.13.x before 5.13.4 does not pro
 - [Liang2580/CVE-2021-33909](https://github.com/Liang2580/CVE-2021-33909)
 - [baerwolf/cve-2021-33909](https://github.com/baerwolf/cve-2021-33909)
 - [bbinfosec43/CVE-2021-33909](https://github.com/bbinfosec43/CVE-2021-33909)
+- [ikramimamoglu/AmIAHuman-CVE-2021-33909](https://github.com/ikramimamoglu/AmIAHuman-CVE-2021-33909)
 
 ### CVE-2021-34045
 - [Al1ex/CVE-2021-34045](https://github.com/Al1ex/CVE-2021-34045)
+
+### CVE-2021-34470 (2021-07-14)
+
+<code>
+Microsoft Exchange Server Elevation of Privilege Vulnerability This CVE ID is unique from CVE-2021-33768, CVE-2021-34523.
+</code>
+
+- [technion/CVE-2021-34470scanner](https://github.com/technion/CVE-2021-34470scanner)
 
 ### CVE-2021-34496 (2021-07-14)
 
@@ -1631,6 +1707,7 @@ Windows Print Spooler Remote Code Execution Vulnerability
 - [Eutectico/Printnightmare](https://github.com/Eutectico/Printnightmare)
 - [syntaxbearror/PowerShell-PrintNightmare](https://github.com/syntaxbearror/PowerShell-PrintNightmare)
 - [0xirison/PrintNightmare-Patcher](https://github.com/0xirison/PrintNightmare-Patcher)
+- [Tomparte/PrintNightmare](https://github.com/Tomparte/PrintNightmare)
 
 ### CVE-2021-34558 (2021-07-15)
 
@@ -1719,12 +1796,16 @@ Windows Elevation of Privilege Vulnerability
 - [Sp00p64/PyNightmare](https://github.com/Sp00p64/PyNightmare)
 - [jmaddington/Serious-Sam---CVE-2021-36934-Mitigation-for-Datto-RMM](https://github.com/jmaddington/Serious-Sam---CVE-2021-36934-Mitigation-for-Datto-RMM)
 - [0x0D1n/CVE-2021-36934](https://github.com/0x0D1n/CVE-2021-36934)
+- [exploitblizzard/CVE-2021-36934](https://github.com/exploitblizzard/CVE-2021-36934)
+- [irissentinel/CVE-2021-36934](https://github.com/irissentinel/CVE-2021-36934)
+- [websecnl/CVE-2021-36934](https://github.com/websecnl/CVE-2021-36934)
+- [grishinpv/poc_CVE-2021-36934](https://github.com/grishinpv/poc_CVE-2021-36934)
 
 ### CVE-2021-37152
 - [lhashashinl/CVE-2021-37152](https://github.com/lhashashinl/CVE-2021-37152)
 
-### CVE-2021-44444
-- [zoukba0014/cve-2021-44444](https://github.com/zoukba0014/cve-2021-44444)
+### CVE-2021-123456
+- [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
 
 
 ## 2020
@@ -2700,6 +2781,7 @@ GLPI before before version 9.4.6 has a vulnerability involving a default encrypt
 </code>
 
 - [indevi0us/CVE-2020-5248](https://github.com/indevi0us/CVE-2020-5248)
+- [Mkway/CVE-2020-5248](https://github.com/Mkway/CVE-2020-5248)
 
 ### CVE-2020-5250 (2020-03-05)
 
@@ -3458,6 +3540,14 @@ Stored Cross-site scripting (XSS) vulnerability in Blackboard Learn/PeopleTool v
 
 - [kyletimmermans/blackboard-xss](https://github.com/kyletimmermans/blackboard-xss)
 
+### CVE-2020-9014 (2021-02-05)
+
+<code>
+In Epson iProjection v2.30, the driver file (EMP_NSAU.sys) allows local users to cause a denial of service (BSOD) via crafted input to the virtual audio device driver with IOCTL 0x9C402402, 0x9C402406, or 0x9C40240A. \Device\EMPNSAUIO and \DosDevices\EMPNSAU are similarly affected.
+</code>
+
+- [Crystalware/CVE-2020-9014](https://github.com/Crystalware/CVE-2020-9014)
+
 ### CVE-2020-9038 (2020-02-17)
 
 <code>
@@ -4124,6 +4214,14 @@ The WOPI API integration for Vereign Collabora CODE through 4.2.2 does not prope
 
 - [d7x/CVE-2020-12432](https://github.com/d7x/CVE-2020-12432)
 
+### CVE-2020-12593 (2020-11-18)
+
+<code>
+Symantec Endpoint Detection &amp; Response, prior to 4.5, may be susceptible to an information disclosure issue, which is a type of vulnerability that could potentially allow unauthorized access to data.
+</code>
+
+- [nasbench/CVE-2020-12593](https://github.com/nasbench/CVE-2020-12593)
+
 ### CVE-2020-12629 (2020-05-04)
 
 <code>
@@ -4638,7 +4736,7 @@ Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware 
 - [milo2012/CVE-2020-14882](https://github.com/milo2012/CVE-2020-14882)
 - [nice0e3/CVE-2020-14882_Exploit_Gui](https://github.com/nice0e3/CVE-2020-14882_Exploit_Gui)
 - [exploitblizzard/CVE-2020-14882-WebLogic](https://github.com/exploitblizzard/CVE-2020-14882-WebLogic)
-- [0xhatuna/CVE-2020-14882](https://github.com/0xhatuna/CVE-2020-14882)
+- [hatunaa/CVE-2020-14882](https://github.com/hatunaa/CVE-2020-14882)
 - [N0Coriander/CVE-2020-14882-14883](https://github.com/N0Coriander/CVE-2020-14882-14883)
 
 ### CVE-2020-14883 (2020-10-21)
@@ -4977,6 +5075,7 @@ Windows Kernel Local Elevation of Privilege Vulnerability
 
 - [revengsh/CVE-2020-17087](https://github.com/revengsh/CVE-2020-17087)
 - [ykg88/OHTS_IE6052-CVE-2020-17087](https://github.com/ykg88/OHTS_IE6052-CVE-2020-17087)
+- [vp777/Windows-Non-Paged-Pool-Overflow-Exploitation](https://github.com/vp777/Windows-Non-Paged-Pool-Overflow-Exploitation)
 
 ### CVE-2020-17136 (2020-12-09)
 
@@ -5733,6 +5832,7 @@ Git LFS 2.12.0 allows Remote Code Execution.
 - [nob0dy-3389/CVE-2020-27955](https://github.com/nob0dy-3389/CVE-2020-27955)
 - [Marsable/CVE-2020-27955-LFS](https://github.com/Marsable/CVE-2020-27955-LFS)
 - [FrostsaberX/CVE-2020-27955](https://github.com/FrostsaberX/CVE-2020-27955)
+- [whitetea2424/CVE-2020-27955-LFS-main](https://github.com/whitetea2424/CVE-2020-27955-LFS-main)
 
 ### CVE-2020-27976 (2020-10-28)
 
@@ -5841,6 +5941,7 @@ This affects the package xmlhttprequest before 1.7.0; all versions of package xm
 </code>
 
 - [s-index/CVE-2020-28502](https://github.com/s-index/CVE-2020-28502)
+- [dpredrag/CVE-2020-28502](https://github.com/dpredrag/CVE-2020-28502)
 
 ### CVE-2020-28647 (2020-11-17)
 
@@ -6094,6 +6195,14 @@ FasterXML jackson-databind 2.x before 2.9.10.8 mishandles the interaction betwee
 </code>
 
 - [Al1ex/CVE-2020-36188](https://github.com/Al1ex/CVE-2020-36188)
+
+### CVE-2020-36287 (2021-04-08)
+
+<code>
+The dashboard gadgets preference resource of the Atlassian gadgets plugin used in Jira Server and Jira Data Center before version 8.13.5, and from version 8.14.0 before version 8.15.1 allows remote anonymous attackers to obtain gadget related settings via a missing permissions check.
+</code>
+
+- [f4rber/CVE-2020-36287](https://github.com/f4rber/CVE-2020-36287)
 
 ### CVE-2020-72381
 - [jdordonezn/CVE-2020-72381](https://github.com/jdordonezn/CVE-2020-72381)
@@ -7378,6 +7487,7 @@ Canonical snapd before version 2.37.1 incorrectly performed socket owner validat
 - [initstring/dirty_sock](https://github.com/initstring/dirty_sock)
 - [SecuritySi/CVE-2019-7304_DirtySock](https://github.com/SecuritySi/CVE-2019-7304_DirtySock)
 - [bendalisoftpro/snap_priv_esc](https://github.com/bendalisoftpro/snap_priv_esc)
+- [f4T1H21/dirty_sock](https://github.com/f4T1H21/dirty_sock)
 
 ### CVE-2019-7356 (2020-11-04)
 
@@ -7903,6 +8013,7 @@ A flaw was found in Exim versions 4.87 to 4.91 (inclusive). Improper validation 
 - [Diefunction/CVE-2019-10149](https://github.com/Diefunction/CVE-2019-10149)
 - [Dilshan-Eranda/CVE-2019-10149](https://github.com/Dilshan-Eranda/CVE-2019-10149)
 - [area1/exim-cve-2019-10149-data](https://github.com/area1/exim-cve-2019-10149-data)
+- [Stick-U235/CVE-2019-10149-Exploit](https://github.com/Stick-U235/CVE-2019-10149-Exploit)
 
 ### CVE-2019-10172 (2019-11-18)
 
@@ -8734,6 +8845,14 @@ Use after free in WebAudio in Google Chrome prior to 78.0.3904.87 allowed a remo
 - [cve-2019-13720/cve-2019-13720](https://github.com/cve-2019-13720/cve-2019-13720)
 - [ChoKyuWon/CVE-2019-13720](https://github.com/ChoKyuWon/CVE-2019-13720)
 
+### CVE-2019-13764 (2019-12-10)
+
+<code>
+Type confusion in JavaScript in Google Chrome prior to 79.0.3945.79 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+</code>
+
+- [HaboobLab/CVE-2019-13764](https://github.com/HaboobLab/CVE-2019-13764)
+
 ### CVE-2019-13956 (2019-07-18)
 
 <code>
@@ -9522,6 +9641,7 @@ In Sudo before 1.8.26, if pwfeedback is enabled in /etc/sudoers, users can trigg
 - [ptef/CVE-2019-18634](https://github.com/ptef/CVE-2019-18634)
 - [edsonjt81/sudo-cve-2019-18634](https://github.com/edsonjt81/sudo-cve-2019-18634)
 - [Y3A/CVE-2019-18634](https://github.com/Y3A/CVE-2019-18634)
+- [aesophor/CVE-2019-18634](https://github.com/aesophor/CVE-2019-18634)
 
 ### CVE-2019-18655 (2019-11-12)
 
@@ -10431,6 +10551,7 @@ Authentication Bypass vulnerability in the Oturia Smart Google Code Inserter plu
 
 - [lucad93/CVE-2018-3810](https://github.com/lucad93/CVE-2018-3810)
 - [cved-sources/cve-2018-3810](https://github.com/cved-sources/cve-2018-3810)
+- [nth347/CVE-2018-3810_exploit](https://github.com/nth347/CVE-2018-3810_exploit)
 
 ### CVE-2018-3811 (2018-01-01)
 
@@ -10915,6 +11036,7 @@ Go before 1.8.7, Go 1.9.x before 1.9.4, and Go 1.10 pre-releases before Go 1.10r
 - [yashanand/cve-2018-6574](https://github.com/yashanand/cve-2018-6574)
 - [jaya522/CVE-2018-6574-go-get-RCE](https://github.com/jaya522/CVE-2018-6574-go-get-RCE)
 - [noobTest1122/CVE-2018-6574](https://github.com/noobTest1122/CVE-2018-6574)
+- [ErnestZiemkowski/cve-2018-6574](https://github.com/ErnestZiemkowski/cve-2018-6574)
 
 ### CVE-2018-6622 (2018-08-17)
 
@@ -11521,6 +11643,7 @@ An issue was discovered in PRTG Network Monitor before 18.2.39. An attacker who 
 
 - [wildkindcc/CVE-2018-9276](https://github.com/wildkindcc/CVE-2018-9276)
 - [AndyFeiLi/CVE-2018-9276](https://github.com/AndyFeiLi/CVE-2018-9276)
+- [A1vinSmith/CVE-2018-9276](https://github.com/A1vinSmith/CVE-2018-9276)
 
 ### CVE-2018-9375
 - [IOActive/AOSP-ExploitUserDictionary](https://github.com/IOActive/AOSP-ExploitUserDictionary)
@@ -11907,6 +12030,14 @@ Apache Karaf provides a features deployer, which allows users to &quot;hot deplo
 
 - [brianwrf/CVE-2018-11788](https://github.com/brianwrf/CVE-2018-11788)
 
+### CVE-2018-11790 (2019-01-31)
+
+<code>
+When loading a document with Apache Open Office 4.1.5 and earlier with smaller end line termination than the operating system uses, the defect occurs. In this case OpenOffice runs into an Arithmetic Overflow at a string length calculation.
+</code>
+
+- [anmuxi-bai/CVE-2018-11790](https://github.com/anmuxi-bai/CVE-2018-11790)
+
 ### CVE-2018-11882 (2018-10-29)
 
 <code>
@@ -12027,6 +12158,14 @@ An issue was discovered in phpMyAdmin 4.8.x before 4.8.2, in which an attacker c
 - [0x00-0x00/CVE-2018-12613](https://github.com/0x00-0x00/CVE-2018-12613)
 - [ivanitlearning/CVE-2018-12613](https://github.com/ivanitlearning/CVE-2018-12613)
 - [eastmountyxz/CVE-2018-12613-phpMyAdmin](https://github.com/eastmountyxz/CVE-2018-12613-phpMyAdmin)
+
+### CVE-2018-12636 (2018-06-22)
+
+<code>
+The iThemes Security (better-wp-security) plugin before 7.0.3 for WordPress allows SQL Injection (by attackers with Admin privileges) via the logs page.
+</code>
+
+- [nth347/CVE-2018-12636_exploit](https://github.com/nth347/CVE-2018-12636_exploit)
 
 ### CVE-2018-12798 (2018-07-20)
 
@@ -12909,6 +13048,7 @@ In WinRAR versions prior to and including 5.61, There is path traversal vulnerab
 - [likescam/CVE-2018-20250](https://github.com/likescam/CVE-2018-20250)
 - [eastmountyxz/CVE-2018-20250-WinRAR](https://github.com/eastmountyxz/CVE-2018-20250-WinRAR)
 - [lxg5763/cve-2018-20250](https://github.com/lxg5763/cve-2018-20250)
+- [zeronohacker/CVE-2018-20250](https://github.com/zeronohacker/CVE-2018-20250)
 
 ### CVE-2018-20343 (2020-03-02)
 
@@ -14745,6 +14885,7 @@ When running Apache Tomcat versions 9.0.0.M1 to 9.0.0, 8.5.0 to 8.5.22, 8.0.0.RC
 - [qiantu88/CVE-2017-12617](https://github.com/qiantu88/CVE-2017-12617)
 - [ygouzerh/CVE-2017-12617](https://github.com/ygouzerh/CVE-2017-12617)
 - [tyranteye666/tomcat-cve-2017-12617](https://github.com/tyranteye666/tomcat-cve-2017-12617)
+- [jptr218/tc_hack](https://github.com/jptr218/tc_hack)
 
 ### CVE-2017-12624 (2017-11-14)
 
@@ -18024,6 +18165,7 @@ GNU Bash through 4.3 processes trailing strings after function definitions in th
 - [cyberharsh/Shellbash-CVE-2014-6271](https://github.com/cyberharsh/Shellbash-CVE-2014-6271)
 - [MuirlandOracle/CVE-2014-6271-IPFire](https://github.com/MuirlandOracle/CVE-2014-6271-IPFire)
 - [mochizuki875/CVE-2014-6271-Apache-Debian](https://github.com/mochizuki875/CVE-2014-6271-Apache-Debian)
+- [b4keSn4ke/shellshock](https://github.com/b4keSn4ke/shellshock)
 
 ### CVE-2014-6287 (2014-10-07)
 

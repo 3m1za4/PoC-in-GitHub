@@ -1,6 +1,9 @@
 # PoC in GitHub
 
 ## 2021
+### CVE-2021-09
+- [zeroc00I/CVE-2021-09-03](https://github.com/zeroc00I/CVE-2021-09-03)
+
 ### CVE-2021-1056 (2021-01-07)
 
 <code>
@@ -99,6 +102,7 @@ A validation issue was addressed with improved input sanitization. This issue is
 </code>
 
 - [tihmstar/itmsBlock](https://github.com/tihmstar/itmsBlock)
+- [ChiChou/mistune-patch-backport](https://github.com/ChiChou/mistune-patch-backport)
 
 ### CVE-2021-1782 (2021-04-02)
 
@@ -181,6 +185,7 @@ ffay lanproxy 0.1 allows Directory Traversal to read /../conf/config.properties 
 - [murataydemir/CVE-2021-3019](https://github.com/murataydemir/CVE-2021-3019)
 - [Aoyuh/cve-2021-3019](https://github.com/Aoyuh/cve-2021-3019)
 - [givemefivw/CVE-2021-3019](https://github.com/givemefivw/CVE-2021-3019)
+- [qiezi-maozi/CVE-2021-3019-Lanproxy](https://github.com/qiezi-maozi/CVE-2021-3019-Lanproxy)
 
 ### CVE-2021-3122 (2021-02-07)
 
@@ -461,6 +466,9 @@ D-Link router DSL-2750U with firmware vME1.16 or prior versions is vulnerable to
 
 - [HadiMed/firmware-analysis](https://github.com/HadiMed/firmware-analysis)
 
+### CVE-2021-6901
+- [mooneee/cve-2021-6901](https://github.com/mooneee/cve-2021-6901)
+
 ### CVE-2021-10086
 - [Mochican/CVE-2021-10086](https://github.com/Mochican/CVE-2021-10086)
 
@@ -622,6 +630,7 @@ Dell dbutil_2_3.sys driver contains an insufficient access control vulnerability
 - [arnaudluti/PS-CVE-2021-21551](https://github.com/arnaudluti/PS-CVE-2021-21551)
 - [mathisvickie/CVE-2021-21551](https://github.com/mathisvickie/CVE-2021-21551)
 - [mzakocs/CVE-2021-21551-POC](https://github.com/mzakocs/CVE-2021-21551-POC)
+- [ihack4falafel/Dell-Driver-EoP-CVE-2021-21551](https://github.com/ihack4falafel/Dell-Driver-EoP-CVE-2021-21551)
 
 ### CVE-2021-21972 (2021-02-24)
 
@@ -988,6 +997,14 @@ In affected versions of Confluence Server and Data Center, an OGNL injection vul
 - [taythebot/CVE-2021-26084](https://github.com/taythebot/CVE-2021-26084)
 - [bcdannyboy/CVE-2021-26084_GoPOC](https://github.com/bcdannyboy/CVE-2021-26084_GoPOC)
 - [smallpiggy/cve-2021-26084-confluence](https://github.com/smallpiggy/cve-2021-26084-confluence)
+- [maskerTUI/CVE-2021-26084](https://github.com/maskerTUI/CVE-2021-26084)
+- [BeRserKerSec/CVE-2021-26084-Nuclei-template](https://github.com/BeRserKerSec/CVE-2021-26084-Nuclei-template)
+- [p0nymc1/CVE-2021-26084](https://github.com/p0nymc1/CVE-2021-26084)
+- [mr-r3bot/Confluence-CVE-2021-26084](https://github.com/mr-r3bot/Confluence-CVE-2021-26084)
+- [Loneyers/CVE-2021-26084](https://github.com/Loneyers/CVE-2021-26084)
+- [Xc1Ym/cve_2021_26084](https://github.com/Xc1Ym/cve_2021_26084)
+- [march0s1as/CVE-2021-26084](https://github.com/march0s1as/CVE-2021-26084)
+- [wolf1892/confluence-rce-poc](https://github.com/wolf1892/confluence-rce-poc)
 
 ### CVE-2021-26119 (2021-02-21)
 
@@ -1397,6 +1414,14 @@ Microsoft Exchange Server Remote Code Execution Vulnerability This CVE ID is uni
 - [Shadow0ps/CVE-2021-28482-Exchange-POC](https://github.com/Shadow0ps/CVE-2021-28482-Exchange-POC)
 - [KevinWorst/CVE-2021-28482_Exploit](https://github.com/KevinWorst/CVE-2021-28482_Exploit)
 
+### CVE-2021-28663 (2021-05-10)
+
+<code>
+The Arm Mali GPU kernel driver allows privilege escalation or information disclosure because GPU memory operations are mishandled, leading to a use-after-free. This affects Bifrost r0p0 through r28p0 before r29p0, Valhall r19p0 through r28p0 before r29p0, and Midgard r4p0 through r30p0.
+</code>
+
+- [lntrx/CVE-2021-28663](https://github.com/lntrx/CVE-2021-28663)
+
 ### CVE-2021-29155 (2021-04-20)
 
 <code>
@@ -1777,6 +1802,7 @@ fs/seq_file.c in the Linux kernel 3.16 through 5.13.x before 5.13.4 does not pro
 - [baerwolf/cve-2021-33909](https://github.com/baerwolf/cve-2021-33909)
 - [bbinfosec43/CVE-2021-33909](https://github.com/bbinfosec43/CVE-2021-33909)
 - [ikramimamoglu/AmIAHuman-CVE-2021-33909](https://github.com/ikramimamoglu/AmIAHuman-CVE-2021-33909)
+- [ChrisTheCoolHut/CVE-2021-33909](https://github.com/ChrisTheCoolHut/CVE-2021-33909)
 
 ### CVE-2021-34045
 - [Al1ex/CVE-2021-34045](https://github.com/Al1ex/CVE-2021-34045)
@@ -1848,6 +1874,14 @@ The crypto/tls package of Go through 1.16.5 does not properly assert that the ty
 </code>
 
 - [alexzorin/cve-2021-34558](https://github.com/alexzorin/cve-2021-34558)
+
+### CVE-2021-34646 (2021-08-30)
+
+<code>
+Versions up to, and including, 5.4.3, of the Booster for WooCommerce WordPress plugin are vulnerable to authentication bypass via the process_email_verification function due to a random token generation weakness in the reset_and_mail_activation_link function found in the ~/includes/class-wcj-emails-verification.php file. This allows attackers to impersonate users and trigger an email address verification for arbitrary accounts, including administrative accounts, and automatically be logged in as that user, including any site administrators. This requires the Email Verification module to be active in the plugin and the Login User After Successful Verification setting to be enabled, which it is by default.
+</code>
+
+- [motikan2010/CVE-2021-34646](https://github.com/motikan2010/CVE-2021-34646)
 
 ### CVE-2021-35042 (2021-07-02)
 
@@ -2039,6 +2073,18 @@ TastyIgniter 3.0.7 allows XSS via /account, /reservation, /admin/dashboard, and 
 - [HuskyHacks/CVE-2021-38699-Reflected-XSS](https://github.com/HuskyHacks/CVE-2021-38699-Reflected-XSS)
 - [HuskyHacks/CVE-2021-38699-Stored-XSS](https://github.com/HuskyHacks/CVE-2021-38699-Stored-XSS)
 
+### CVE-2021-38704
+- [sudonoodle/CVE-2021-38704](https://github.com/sudonoodle/CVE-2021-38704)
+
+### CVE-2021-38705
+- [sudonoodle/CVE-2021-38705](https://github.com/sudonoodle/CVE-2021-38705)
+
+### CVE-2021-38706
+- [sudonoodle/CVE-2021-38706](https://github.com/sudonoodle/CVE-2021-38706)
+
+### CVE-2021-38707
+- [sudonoodle/CVE-2021-38707](https://github.com/sudonoodle/CVE-2021-38707)
+
 ### CVE-2021-38710 (2021-08-18)
 
 <code>
@@ -2117,6 +2163,20 @@ A SQL injection vulnerability exists in version 8.0 of openSIS when MySQL or Mar
 </code>
 
 - [5qu1n7/CVE-2021-40353](https://github.com/5qu1n7/CVE-2021-40353)
+
+### CVE-2021-40374
+- [DCKento/CVE-2021-40374](https://github.com/DCKento/CVE-2021-40374)
+
+### CVE-2021-40375
+- [DCKento/CVE-2021-40375](https://github.com/DCKento/CVE-2021-40375)
+
+### CVE-2021-40492 (2021-09-03)
+
+<code>
+A reflected XSS vulnerability exists in multiple pages in version 22 of the Gibbon application that allows for arbitrary execution of JavaScript (gibbonCourseClassID, gibbonPersonID, subpage, currentDate, or allStudents to index.php).
+</code>
+
+- [5qu1n7/CVE-2021-40492](https://github.com/5qu1n7/CVE-2021-40492)
 
 ### CVE-2021-123456
 - [zoukba0014/cve-2021-123456](https://github.com/zoukba0014/cve-2021-123456)
@@ -2474,6 +2534,7 @@ A remote code execution vulnerability exists in the way that the Microsoft Serve
 - [ORCA666/CVE-2020-0796](https://github.com/ORCA666/CVE-2020-0796)
 - [Nephael/Nephael-CVE-2020-0796](https://github.com/Nephael/Nephael-CVE-2020-0796)
 - [1stPeak/CVE-2020-0796-Scanner](https://github.com/1stPeak/CVE-2020-0796-Scanner)
+- [Anonimo501/SMBGhost_CVE-2020-0796_checker](https://github.com/Anonimo501/SMBGhost_CVE-2020-0796_checker)
 
 ### CVE-2020-0797 (2020-03-12)
 
@@ -3326,6 +3387,7 @@ Type confusion in V8 in Google Chrome prior to 80.0.3987.122 allowed a remote at
 
 - [ChoKyuWon/CVE-2020-6418](https://github.com/ChoKyuWon/CVE-2020-6418)
 - [Goyotan/CVE-2020-6418-PoC](https://github.com/Goyotan/CVE-2020-6418-PoC)
+- [CYB3R-X3eRo0/CVE-2020-6418](https://github.com/CYB3R-X3eRo0/CVE-2020-6418)
 
 ### CVE-2020-6468 (2020-05-20)
 
@@ -10569,6 +10631,7 @@ A vulnerability in the Cisco node-jose open source library before 0.11.0 could a
 - [Eremiel/CVE-2018-0114](https://github.com/Eremiel/CVE-2018-0114)
 - [Starry-lord/CVE-2018-0114](https://github.com/Starry-lord/CVE-2018-0114)
 - [scumdestroy/CVE-2018-0114](https://github.com/scumdestroy/CVE-2018-0114)
+- [RyouYoo/CVE-2018-0114](https://github.com/RyouYoo/CVE-2018-0114)
 
 ### CVE-2018-0202 (2018-03-27)
 
@@ -10856,6 +10919,7 @@ Vulnerability in the Oracle WebLogic Server component of Oracle Fusion Middlewar
 - [0xMJ/CVE-2018-2628](https://github.com/0xMJ/CVE-2018-2628)
 - [0xn0ne/weblogicScanner](https://github.com/0xn0ne/weblogicScanner)
 - [seethen/cve-2018-2628](https://github.com/seethen/cve-2018-2628)
+- [BabyTeam1024/cve-2018-2628](https://github.com/BabyTeam1024/cve-2018-2628)
 
 ### CVE-2018-2636 (2018-01-17)
 
@@ -16283,6 +16347,7 @@ Action Pack in Ruby on Rails before 3.2.22.2, 4.x before 4.1.14.2, and 4.2.x bef
 - [3rg1s/CVE-2016-2098](https://github.com/3rg1s/CVE-2016-2098)
 - [danielhemmati/CVE-2016-2098-my-first-exploit](https://github.com/danielhemmati/CVE-2016-2098-my-first-exploit)
 - [Debalinax64/CVE-2016-2098](https://github.com/Debalinax64/CVE-2016-2098)
+- [RyouYoo/CVE-2016-2098](https://github.com/RyouYoo/CVE-2016-2098)
 
 ### CVE-2016-2107 (2016-05-04)
 
@@ -17146,6 +17211,7 @@ The mailSend function in the isMail transport in PHPMailer before 5.2.18 might a
 - [awidardi/opsxcq-cve-2016-10033](https://github.com/awidardi/opsxcq-cve-2016-10033)
 - [0x00-0x00/CVE-2016-10033](https://github.com/0x00-0x00/CVE-2016-10033)
 - [cved-sources/cve-2016-10033](https://github.com/cved-sources/cve-2016-10033)
+- [RyouYoo/CVE-2016-10033](https://github.com/RyouYoo/CVE-2016-10033)
 
 ### CVE-2016-10034 (2016-12-30)
 
@@ -19359,6 +19425,7 @@ file/show.cgi in Webmin 1.590 and earlier allows remote authenticated users to e
 - [OstojaOfficial/CVE-2012-2982](https://github.com/OstojaOfficial/CVE-2012-2982)
 - [AlexJS6/CVE-2012-2982_Python](https://github.com/AlexJS6/CVE-2012-2982_Python)
 - [Ari-Weinberg/CVE-2012-2982](https://github.com/Ari-Weinberg/CVE-2012-2982)
+- [JohnHammond/CVE-2012-2982](https://github.com/JohnHammond/CVE-2012-2982)
 
 ### CVE-2012-3137 (2012-09-21)
 
